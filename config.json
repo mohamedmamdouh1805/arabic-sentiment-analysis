@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "validation_size": 0.15,
+  "test_size": 0.15,
+  "normalization": {
+    "unicode_form": "NFKC",
+    "normalize_letters": true,
+    "remove_tatweel": true,
+    "remove_diacritics": true,
+    "remove_urls": true,
+    "remove_mentions": true,
+    "keep_punctuation": true,
+    "keep_emoji": true
+  },
+  "c_values": [0.5, 2.0, 8.0],
+  "class_weights": [null, "balanced"]
+}
